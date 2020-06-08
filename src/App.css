@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "calculator";
+    src: url("./fonts/Open\ 24\ Display\ St.ttf") format("truetype");
+  }
+
 .App {
     background: rgb(141, 141, 141);
     width: 100vw;
@@ -21,6 +26,7 @@
     width: 99%;
     align-self: center;
     font-size: 20pt;
+    font-family: "calculator" ;
 }
 
 .formulaScreen {
